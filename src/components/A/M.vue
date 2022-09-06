@@ -4,7 +4,7 @@
 </script>
     
 <template>
-    template
+    M
 </template>
     
 <style scoped>

@@ -12,6 +12,7 @@ import B from './components/B/index.vue'
 // A一级导航栏
 import P1 from './components/A/Page1.vue'
 import P2 from './components/A/Page2.vue'
+import M from './components/A/M.vue'
 
 // 2. 定义一些路由
 // 每个路由都需要映射到一个组件。
@@ -26,6 +27,10 @@ const routes = [
             {
                 path: 'P1',
                 component: () => P1,
+            },
+            {
+                path: 'M',
+                component: () => M,
             },
             {
                 path: 'P2',
